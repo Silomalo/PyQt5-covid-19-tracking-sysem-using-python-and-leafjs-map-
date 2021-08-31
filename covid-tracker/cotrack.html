@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_036057929a4747b08cd05eda0ab20a29 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_036057929a4747b08cd05eda0ab20a29" ></div>
+        
+</body>
+<script>    
+    
+            var map_036057929a4747b08cd05eda0ab20a29 = L.map(
+                "map_036057929a4747b08cd05eda0ab20a29",
+                {
+                    center: [-0.29602864869324946, 36.0946559805275],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eacbc1bbe4054bc3ad3dde6bc584823b = L.tileLayer(
+                "https://stamen-tiles-{s}.a.ssl.fastly.net/terrain/{z}/{x}/{y}.jpg",
+                {"attribution": "Map tiles by \u003ca href=\"http://stamen.com\"\u003eStamen Design\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by/3.0\"\u003eCC BY 3.0\u003c/a\u003e. Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://creativecommons.org/licenses/by-sa/3.0\"\u003eCC BY SA\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_036057929a4747b08cd05eda0ab20a29);
+        
+    
+            var marker_db4d8902c985452494e8936e716a21a6 = L.marker(
+                [0.5143610813609409, 35.288297806487975],
+                {}
+            ).addTo(map_036057929a4747b08cd05eda0ab20a29);
+        
+    
+            var icon_66686ff074f74399adab0cb0a0215f54 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_db4d8902c985452494e8936e716a21a6.setIcon(icon_66686ff074f74399adab0cb0a0215f54);
+        
+    
+        var popup_b21af83ff48d4648a631e933363656b1 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a600db910fe646a68c98f593e02da93b = $(`<div id="html_a600db910fe646a68c98f593e02da93b" style="width: 100.0%; height: 100.0%;">New case In Eldoret Kenit</div>`)[0];
+            popup_b21af83ff48d4648a631e933363656b1.setContent(html_a600db910fe646a68c98f593e02da93b);
+        
+
+        marker_db4d8902c985452494e8936e716a21a6.bindPopup(popup_b21af83ff48d4648a631e933363656b1)
+        ;
+
+        
+    
+    
+            marker_db4d8902c985452494e8936e716a21a6.bindTooltip(
+                `<div>
+                     KNEIT Eldoret
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cff40a006e704d5da774015b9f4fc282 = L.marker(
+                [3.9351134708188056, 41.85757416975142],
+                {}
+            ).addTo(map_036057929a4747b08cd05eda0ab20a29);
+        
+    
+            var icon_2e2292a5b735462a8b59b8aed2151897 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_cff40a006e704d5da774015b9f4fc282.setIcon(icon_2e2292a5b735462a8b59b8aed2151897);
+        
+    
+        var popup_8248f9b0facc46128e1e35dbeed8ba4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_2c4c7f68eb014f94a04e4564e7471549 = $(`<div id="html_2c4c7f68eb014f94a04e4564e7471549" style="width: 100.0%; height: 100.0%;">First Cases reported In mandera Around kenya power</div>`)[0];
+            popup_8248f9b0facc46128e1e35dbeed8ba4e.setContent(html_2c4c7f68eb014f94a04e4564e7471549);
+        
+
+        marker_cff40a006e704d5da774015b9f4fc282.bindPopup(popup_8248f9b0facc46128e1e35dbeed8ba4e)
+        ;
+
+        
+    
+    
+            marker_cff40a006e704d5da774015b9f4fc282.bindTooltip(
+                `<div>
+                     Mandera Kenya Power
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f131a28960784136996363187778facd = L.marker(
+                [-3.2167426763999214, 40.12178809830972],
+                {}
+            ).addTo(map_036057929a4747b08cd05eda0ab20a29);
+        
+    
+            var icon_b5fc0b5e2f2e4fa687a9b0c0a10af3c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_f131a28960784136996363187778facd.setIcon(icon_b5fc0b5e2f2e4fa687a9b0c0a10af3c5);
+        
+    
+        var popup_406d50300b3849b7bcc6e35b54540cd9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86424d581ea94935bc85ff5f00f3372c = $(`<div id="html_86424d581ea94935bc85ff5f00f3372c" style="width: 100.0%; height: 100.0%;">Malindi new cases </div>`)[0];
+            popup_406d50300b3849b7bcc6e35b54540cd9.setContent(html_86424d581ea94935bc85ff5f00f3372c);
+        
+
+        marker_f131a28960784136996363187778facd.bindPopup(popup_406d50300b3849b7bcc6e35b54540cd9)
+        ;
+
+        
+    
+    
+            marker_f131a28960784136996363187778facd.bindTooltip(
+                `<div>
+                     Malindi Market
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9b41ae7dbbf54ef399bd3be02a773858 = L.marker(
+                [-0.45350138827420095, 39.65455108729334],
+                {}
+            ).addTo(map_036057929a4747b08cd05eda0ab20a29);
+        
+    
+            var icon_f67a5753084e44669dfac986c85eeb12 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b41ae7dbbf54ef399bd3be02a773858.setIcon(icon_f67a5753084e44669dfac986c85eeb12);
+        
+    
+        var popup_30373d71066c40efad683c8d7b36c405 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_45c060283ee94d7a8880e4fa0722dcdb = $(`<div id="html_45c060283ee94d7a8880e4fa0722dcdb" style="width: 100.0%; height: 100.0%;">Rising cases In garisaCounty</div>`)[0];
+            popup_30373d71066c40efad683c8d7b36c405.setContent(html_45c060283ee94d7a8880e4fa0722dcdb);
+        
+
+        marker_9b41ae7dbbf54ef399bd3be02a773858.bindPopup(popup_30373d71066c40efad683c8d7b36c405)
+        ;
+
+        
+    
+    
+            marker_9b41ae7dbbf54ef399bd3be02a773858.bindTooltip(
+                `<div>
+                     Garisa Boys High
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_85d1410679594caaa06b31ba8e4faa1c = L.marker(
+                [2.759496315605625, 36.719809518143016],
+                {}
+            ).addTo(map_036057929a4747b08cd05eda0ab20a29);
+        
+    
+            var icon_fe7f60e5922442e0a54f08d09fb54d21 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_85d1410679594caaa06b31ba8e4faa1c.setIcon(icon_fe7f60e5922442e0a54f08d09fb54d21);
+        
+    
+        var popup_17f241e477e74727aaa289f439ae3255 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0caef76125b64f00811bd5df8c299d76 = $(`<div id="html_0caef76125b64f00811bd5df8c299d76" style="width: 100.0%; height: 100.0%;">Highest cases Reporteed By Today</div>`)[0];
+            popup_17f241e477e74727aaa289f439ae3255.setContent(html_0caef76125b64f00811bd5df8c299d76);
+        
+
+        marker_85d1410679594caaa06b31ba8e4faa1c.bindPopup(popup_17f241e477e74727aaa289f439ae3255)
+        ;
+
+        
+    
+    
+            marker_85d1410679594caaa06b31ba8e4faa1c.bindTooltip(
+                `<div>
+                     Loiyangalani
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1e2589bc878482ca2c8754ec590d724 = L.marker(
+                [-0.6809634593099569, 34.759139582358536],
+                {}
+            ).addTo(map_036057929a4747b08cd05eda0ab20a29);
+        
+    
+            var icon_1d6f6980141740bc81db2202a46ae4f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "cloud", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c1e2589bc878482ca2c8754ec590d724.setIcon(icon_1d6f6980141740bc81db2202a46ae4f1);
+        
+    
+        var popup_476e6b60a8d649d7bec6a5df2cb34019 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b3e88ab616a947c08ef744592371d2e6 = $(`<div id="html_b3e88ab616a947c08ef744592371d2e6" style="width: 100.0%; height: 100.0%;">Highest Death Rate in kisii kenya</div>`)[0];
+            popup_476e6b60a8d649d7bec6a5df2cb34019.setContent(html_b3e88ab616a947c08ef744592371d2e6);
+        
+
+        marker_c1e2589bc878482ca2c8754ec590d724.bindPopup(popup_476e6b60a8d649d7bec6a5df2cb34019)
+        ;
+
+        
+    
+    
+            marker_c1e2589bc878482ca2c8754ec590d724.bindTooltip(
+                `<div>
+                     Nyanchwa Hills
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
